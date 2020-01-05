@@ -3,12 +3,12 @@ import numpy as np
 from scipy import stats
 import csv
 
-print("Please wait while we analyse the results")
+print("Please wait while we analyze the results")
 
 df = pd.read_csv('powerball.csv')
 
-csv_file = "occurrences.csv"
-pb_file = "pbOccurrences.csv"
+csv_file = "results/occurrences.csv"
+pb_file = "results/pb_occurrences.csv"
 columns = ["number", "occurrences"]
 
 num1 = np.array(df.num1)
